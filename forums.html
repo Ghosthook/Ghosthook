@@ -9,6 +9,8 @@
 <title>Page 2</title>
 <link href="main.css" rel="stylesheet" type="text/css">
 <link href="columns.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+
 
 <script type="text/javascript" src="js/jquery.min.js"></script>
 
@@ -57,7 +59,7 @@ html, body {margin: 0; height: 100%; overflow: hidden}
   padding:0;
  }
  </style>
- 
+
 
 <video id="bgvid" autoplay poster="**image link**"> <!-- replace **image link** with your own file -->
 
@@ -68,8 +70,6 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 <source src="**video link**.mp4" type="video/mp4" /><!-- replace **video link** with your own file -->
 
 </video>
-
-
 
 
 </head>
@@ -96,8 +96,25 @@ html, body {margin: 0; height: 100%; overflow: hidden}
      <a class="darkblue" href="https://icons8.com">Icon pack by Icons8</a>
      <!-- Root Server icon by Icons8 -->
 </div>
-    
+ 
+ <div id="register">   
+ <button id="column-right">Register</button>
+   </div>
 
+  
+<div id="login">
+  <p id="bottom-left" id="column-left">Login</p>
+</div>
+
+    <div id="column-left">
+    <label id="h1-email"><b id="mail-position">Email:</b></label>
+  <input id="email" type="text" placeholder="Enter Email" name="email" required>
+   </div> 
+
+     <div id="column-left">
+     <label id="h1-password"><b id="pass-position">Password:</b></label>
+  <input id="password" type="text" placeholder="Enter Password" name="psw" required> 
+   </div>
 
 
     <div id="kommentarsbox" ng-controller="KommentarControl">
